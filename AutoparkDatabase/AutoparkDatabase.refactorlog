@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Operations Version="1.0" xmlns="http://schemas.microsoft.com/sqlserver/dac/Serialization/2012/02">
+  <Operation Name="Rename Refactor" Key="520f13b7-d64d-49a0-809d-65949c34d60f" ChangeDateTime="12/06/2017 01:28:58">
+    <Property Name="ElementName" Value="[dbo].[Route].[Destination]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Route]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="Departure" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="b16f6338-1dce-4caa-8d06-030815f3069b" ChangeDateTime="12/06/2017 01:30:10">
+    <Property Name="ElementName" Value="[dbo].[Route].[Distation]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Route]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="Distance" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="783c0687-f2df-4153-97c5-72207ef34ddd" ChangeDateTime="12/06/2017 01:33:01">
+    <Property Name="ElementName" Value="[dbo].[Ticket].[Passanger]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Ticket]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="Passenger" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="429d4cc1-5695-4af1-9a02-947330d41aee" ChangeDateTime="12/06/2017 01:36:51">
+    <Property Name="ElementName" Value="[dbo].[Dispatcher].[Dispatcher]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Dispatcher]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="Name" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="67b90d68-6cc7-4f0f-a7f2-5448b04676bd" ChangeDateTime="12/06/2017 01:41:26">
+    <Property Name="ElementName" Value="[dbo].[Bus].[Numberplate]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Bus]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="Number" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="d5af6879-74db-4072-a96a-e7e1832d0e22" ChangeDateTime="12/06/2017 01:49:22">
+    <Property Name="ElementName" Value="[dbo].[FK_Transport_ToTable]" />
+    <Property Name="ElementType" Value="SqlForeignKeyConstraint" />
+    <Property Name="ParentElementName" Value="[dbo].[Transport]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="[FK_Transport_Dispatcher]" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="a865770b-0920-4276-96c3-bf0beca60919" ChangeDateTime="12/06/2017 01:49:39">
+    <Property Name="ElementName" Value="[dbo].[FK_Transport_ToTable]" />
+    <Property Name="ElementType" Value="SqlForeignKeyConstraint" />
+    <Property Name="ParentElementName" Value="[dbo].[Transport]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="[FK_Transport_Driver]" />
+  </Operation>
+</Operations>
